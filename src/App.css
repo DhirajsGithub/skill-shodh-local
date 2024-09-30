@@ -1,0 +1,43 @@
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #18181D;
+  
+}
+
+#root {
+  height: 100%;
+}
+
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+/* Default scrollbar styles */
+* {
+  scrollbar-width: none; /* For Firefox */
+  scrollbar-color: none; /* For Firefox */
+}
+
+*::-webkit-scrollbar {
+
+  display: none;
+}
+

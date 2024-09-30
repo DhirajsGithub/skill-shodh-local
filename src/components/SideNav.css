@@ -1,0 +1,16 @@
+/* Importing pre-styled components from react-pro-sidebar */
+/* @import '~react-pro-sidebar/dist/scss/styles.scss'; */
+
+/* Setting base styles */
+
+  
+.sideNav {
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+.css-1t8x7v1 >.ps-menu-button{
+  padding: 0px !important;
+  height: 10px !important;
+}
+
